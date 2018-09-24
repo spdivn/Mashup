@@ -1,6 +1,0 @@
-@for $i from 1 through 8{
-    $step: $i*2;        
-    .margin--0--30 form>input:nth-child(#{$i}){
-        animation-delay: #{$step}s;
-                                }
-    }
