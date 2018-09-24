@@ -1,0 +1,36 @@
+.Banner{
+    position: relative;
+    height: 100vh;
+    background: #ffb76b; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffb76b 0%, #ff7c00 69%, #ff7f04 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffb76b 0%,#ff7c00 69%,#ff7f04 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffb76b 0%,#ff7c00 69%,#ff7f04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */
+    width: 100%;
+}
+
+.ban{
+    width:inherit;
+    height: 65vh;
+    margin: 0 auto;
+    color:white;
+    position: absolute;
+    top:25%;
+    left:50%;
+    text-align: center;
+    transform:translate(-50%);
+
+    & > div {
+        & > a{            
+                color: #FFF;
+                background-color: #1DB954;
+                font-size: 14px;
+                line-height: 1;
+                border-radius: 500px;
+                padding: 16px 48px 18px;
+                text-transform:uppercase;
+                border:0;
+                text-decoration: none;
+        }
+    }
+}

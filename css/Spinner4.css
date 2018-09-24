@@ -1,0 +1,545 @@
+.fs {
+  width: 100vw;
+  height: 100vh;
+}
+
+body{
+  overflow: hidden;
+}
+
+.spinner {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  border-radius: 3px;
+  opacity: 0.3;  
+  background: red;
+}
+.spinner div {
+  background: #2fbcfd;
+  width: 10%;
+  height: 10%;
+  border-radius: 3px;
+  animation: 3s Muovit infinite;
+  /* animation: 4s Roteate infinite; */
+}
+
+.spinner div:nth-child(1) {
+  animation-delay: 0.02s;
+  background-color: #e639c3;
+}
+
+.spinner div:nth-child(2) {
+  animation-delay: 0.04s;
+  background-color: #4454b2;
+}
+
+.spinner div:nth-child(3) {
+  animation-delay: 0.06s;
+  background-color: #3781b1;
+}
+
+.spinner div:nth-child(4) {
+  animation-delay: 0.08s;
+  background-color: #cbca31;
+}
+
+.spinner div:nth-child(5) {
+  animation-delay: 0.1s;
+  background-color: #184a8f;
+}
+
+.spinner div:nth-child(6) {
+  animation-delay: 0.12s;
+  background-color: #cdeaf7;
+}
+
+.spinner div:nth-child(7) {
+  animation-delay: 0.14s;
+  background-color: #fc8f74;
+}
+
+.spinner div:nth-child(8) {
+  animation-delay: 0.16s;
+  background-color: #d91c45;
+}
+
+.spinner div:nth-child(9) {
+  animation-delay: 0.18s;
+  background-color: #80c385;
+}
+
+.spinner div:nth-child(10) {
+  animation-delay: 0.2s;
+  background-color: #1d368d;
+}
+
+.spinner div:nth-child(11) {
+  animation-delay: 0.22s;
+  background-color: #905401;
+}
+
+.spinner div:nth-child(12) {
+  animation-delay: 0.24s;
+  background-color: #62b2b2;
+}
+
+.spinner div:nth-child(13) {
+  animation-delay: 0.26s;
+  background-color: #04c37f;
+}
+
+.spinner div:nth-child(14) {
+  animation-delay: 0.28s;
+  background-color: #0af77d;
+}
+
+.spinner div:nth-child(15) {
+  animation-delay: 0.3s;
+  background-color: #d6d332;
+}
+
+.spinner div:nth-child(16) {
+  animation-delay: 0.32s;
+  background-color: #5bec4e;
+}
+
+.spinner div:nth-child(17) {
+  animation-delay: 0.34s;
+  background-color: #51836d;
+}
+
+.spinner div:nth-child(18) {
+  animation-delay: 0.36s;
+  background-color: #0724dc;
+}
+
+.spinner div:nth-child(19) {
+  animation-delay: 0.38s;
+  background-color: #b2d02a;
+}
+
+.spinner div:nth-child(20) {
+  animation-delay: 0.4s;
+  background-color: #d8129e;
+}
+
+.spinner div:nth-child(21) {
+  animation-delay: 0.42s;
+  background-color: #513026;
+}
+
+.spinner div:nth-child(22) {
+  animation-delay: 0.44s;
+  background-color: #2ecba9;
+}
+
+.spinner div:nth-child(23) {
+  animation-delay: 0.46s;
+  background-color: #a9cc5b;
+}
+
+.spinner div:nth-child(24) {
+  animation-delay: 0.48s;
+  background-color: #2382af;
+}
+
+.spinner div:nth-child(25) {
+  animation-delay: 0.5s;
+  background-color: #b549f3;
+}
+
+.spinner div:nth-child(26) {
+  animation-delay: 0.52s;
+  background-color: #3a33e2;
+}
+
+.spinner div:nth-child(27) {
+  animation-delay: 0.54s;
+  background-color: #6c0156;
+}
+
+.spinner div:nth-child(28) {
+  animation-delay: 0.56s;
+  background-color: #7ceaeb;
+}
+
+.spinner div:nth-child(29) {
+  animation-delay: 0.58s;
+  background-color: #a9bf7b;
+}
+
+.spinner div:nth-child(30) {
+  animation-delay: 0.6s;
+  background-color: #6c462f;
+}
+
+.spinner div:nth-child(31) {
+  animation-delay: 0.62s;
+  background-color: #aab4c6;
+}
+
+.spinner div:nth-child(32) {
+  animation-delay: 0.64s;
+  background-color: #3ee36c;
+}
+
+.spinner div:nth-child(33) {
+  animation-delay: 0.66s;
+  background-color: #09c7c9;
+}
+
+.spinner div:nth-child(34) {
+  animation-delay: 0.68s;
+  background-color: #7307a8;
+}
+
+.spinner div:nth-child(35) {
+  animation-delay: 0.7s;
+  background-color: #4775de;
+}
+
+.spinner div:nth-child(36) {
+  animation-delay: 0.72s;
+  background-color: #a9cb0d;
+}
+
+.spinner div:nth-child(37) {
+  animation-delay: 0.74s;
+  background-color: #9d6f4f;
+}
+
+.spinner div:nth-child(38) {
+  animation-delay: 0.76s;
+  background-color: #fa59df;
+}
+
+.spinner div:nth-child(39) {
+  animation-delay: 0.78s;
+  background-color: #70ae8d;
+}
+
+.spinner div:nth-child(40) {
+  animation-delay: 0.8s;
+  background-color: #7e4232;
+}
+
+.spinner div:nth-child(41) {
+  animation-delay: 0.82s;
+  background-color: #566cac;
+}
+
+.spinner div:nth-child(42) {
+  animation-delay: 0.84s;
+  background-color: #d61eea;
+}
+
+.spinner div:nth-child(43) {
+  animation-delay: 0.86s;
+  background-color: #99aa0a;
+}
+
+.spinner div:nth-child(44) {
+  animation-delay: 0.88s;
+  background-color: #8a77b1;
+}
+
+.spinner div:nth-child(45) {
+  animation-delay: 0.9s;
+  background-color: #1e085f;
+}
+
+.spinner div:nth-child(46) {
+  animation-delay: 0.92s;
+  background-color: #238096;
+}
+
+.spinner div:nth-child(47) {
+  animation-delay: 0.94s;
+  background-color: #306727;
+}
+
+.spinner div:nth-child(48) {
+  animation-delay: 0.96s;
+  background-color: #8df3ac;
+}
+
+.spinner div:nth-child(49) {
+  animation-delay: 0.98s;
+  background-color: #1009ce;
+}
+
+.spinner div:nth-child(50) {
+  animation-delay: 1s;
+  background-color: #34151d;
+}
+
+.spinner div:nth-child(100) {
+  animation-delay: 0.02s;
+  background-color: #d8568e;
+}
+
+.spinner div:nth-child(99) {
+  animation-delay: 0.04s;
+  background-color: #9578c7;
+}
+
+.spinner div:nth-child(98) {
+  animation-delay: 0.06s;
+  background-color: #1a5c87;
+}
+
+.spinner div:nth-child(97) {
+  animation-delay: 0.08s;
+  background-color: #43e678;
+}
+
+.spinner div:nth-child(96) {
+  animation-delay: 0.1s;
+  background-color: #e39fa9;
+}
+
+.spinner div:nth-child(95) {
+  animation-delay: 0.12s;
+  background-color: #4e77dc;
+}
+
+.spinner div:nth-child(94) {
+  animation-delay: 0.14s;
+  background-color: #249fbd;
+}
+
+.spinner div:nth-child(93) {
+  animation-delay: 0.16s;
+  background-color: #86d022;
+}
+
+.spinner div:nth-child(92) {
+  animation-delay: 0.18s;
+  background-color: #7f5e17;
+}
+
+.spinner div:nth-child(91) {
+  animation-delay: 0.2s;
+  background-color: #f948dd;
+}
+
+.spinner div:nth-child(90) {
+  animation-delay: 0.22s;
+  background-color: #ce095b;
+}
+
+.spinner div:nth-child(89) {
+  animation-delay: 0.24s;
+  background-color: #bdfa88;
+}
+
+.spinner div:nth-child(88) {
+  animation-delay: 0.26s;
+  background-color: #38c056;
+}
+
+.spinner div:nth-child(87) {
+  animation-delay: 0.28s;
+  background-color: #b4f248;
+}
+
+.spinner div:nth-child(86) {
+  animation-delay: 0.3s;
+  background-color: #8038cb;
+}
+
+.spinner div:nth-child(85) {
+  animation-delay: 0.32s;
+  background-color: #e1767d;
+}
+
+.spinner div:nth-child(84) {
+  animation-delay: 0.34s;
+  background-color: #780b2d;
+}
+
+.spinner div:nth-child(83) {
+  animation-delay: 0.36s;
+  background-color: #7c5df3;
+}
+
+.spinner div:nth-child(82) {
+  animation-delay: 0.38s;
+  background-color: #89e323;
+}
+
+.spinner div:nth-child(81) {
+  animation-delay: 0.4s;
+  background-color: #6dabec;
+}
+
+.spinner div:nth-child(80) {
+  animation-delay: 0.42s;
+  background-color: #4be338;
+}
+
+.spinner div:nth-child(79) {
+  animation-delay: 0.44s;
+  background-color: #025d02;
+}
+
+.spinner div:nth-child(78) {
+  animation-delay: 0.46s;
+  background-color: #fd65ec;
+}
+
+.spinner div:nth-child(77) {
+  animation-delay: 0.48s;
+  background-color: #97c358;
+}
+
+.spinner div:nth-child(76) {
+  animation-delay: 0.5s;
+  background-color: #c887c2;
+}
+
+.spinner div:nth-child(75) {
+  animation-delay: 0.52s;
+  background-color: #2bed12;
+}
+
+.spinner div:nth-child(74) {
+  animation-delay: 0.54s;
+  background-color: #8caa1c;
+}
+
+.spinner div:nth-child(73) {
+  animation-delay: 0.56s;
+  background-color: #5d3015;
+}
+
+.spinner div:nth-child(72) {
+  animation-delay: 0.58s;
+  background-color: #06394e;
+}
+
+.spinner div:nth-child(71) {
+  animation-delay: 0.6s;
+  background-color: #96f04a;
+}
+
+.spinner div:nth-child(70) {
+  animation-delay: 0.62s;
+  background-color: #a2a454;
+}
+
+.spinner div:nth-child(69) {
+  animation-delay: 0.64s;
+  background-color: #8efb56;
+}
+
+.spinner div:nth-child(68) {
+  animation-delay: 0.66s;
+  background-color: #fbf678;
+}
+
+.spinner div:nth-child(67) {
+  animation-delay: 0.68s;
+  background-color: #13ea31;
+}
+
+.spinner div:nth-child(66) {
+  animation-delay: 0.7s;
+  background-color: #45ddf2;
+}
+
+.spinner div:nth-child(65) {
+  animation-delay: 0.72s;
+  background-color: #10a5bc;
+}
+
+.spinner div:nth-child(64) {
+  animation-delay: 0.74s;
+  background-color: #c146cb;
+}
+
+.spinner div:nth-child(63) {
+  animation-delay: 0.76s;
+  background-color: #43eb93;
+}
+
+.spinner div:nth-child(62) {
+  animation-delay: 0.78s;
+  background-color: #d3d72a;
+}
+
+.spinner div:nth-child(61) {
+  animation-delay: 0.8s;
+  background-color: #3653c1;
+}
+
+.spinner div:nth-child(60) {
+  animation-delay: 0.82s;
+  background-color: #b65d59;
+}
+
+.spinner div:nth-child(59) {
+  animation-delay: 0.84s;
+  background-color: #31cb44;
+}
+
+.spinner div:nth-child(58) {
+  animation-delay: 0.86s;
+  background-color: #1ae294;
+}
+
+.spinner div:nth-child(57) {
+  animation-delay: 0.88s;
+  background-color: #279c68;
+}
+
+.spinner div:nth-child(56) {
+  animation-delay: 0.9s;
+  background-color: #4d7beb;
+}
+
+.spinner div:nth-child(55) {
+  animation-delay: 0.92s;
+  background-color: #845f16;
+}
+
+.spinner div:nth-child(54) {
+  animation-delay: 0.94s;
+  background-color: #e65052;
+}
+
+.spinner div:nth-child(53) {
+  animation-delay: 0.96s;
+  background-color: #8a5657;
+}
+
+.spinner div:nth-child(52) {
+  animation-delay: 0.98s;
+  background-color: #726eca;
+}
+
+.spinner div:nth-child(51) {
+  animation-delay: 1s;
+  background-color: #b56bfe;
+}
+
+@keyframes Muovit {
+  0% {
+    transform: scale(1);
+    transform: rotate(0);
+  }
+  10% {
+    transform: scale(0.3);
+    transform: rotate(25deg);
+  }
+  30% {
+    opacity: 0;
+    transform: rotate(60deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: rotate(360deg);
+  }
+}

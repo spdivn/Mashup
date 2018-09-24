@@ -1,0 +1,436 @@
+.fs {
+  width: 100vw;
+  height: 100vh;
+}
+
+.spinner {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  border-radius: 3px;
+  opacity: 0.3;
+  background: red;
+}
+.spinner div {
+  background: #2fbcfd;
+  width: 10%;
+  height: 10%;
+  border-radius: 3px;
+  animation: 3s Muovit infinite;
+}
+
+.spinner div:nth-child(1) {
+  animation-delay: 0.01s;
+}
+
+.spinner div:nth-child(2) {
+  animation-delay: 0.02s;
+}
+
+.spinner div:nth-child(3) {
+  animation-delay: 0.03s;
+}
+
+.spinner div:nth-child(4) {
+  animation-delay: 0.04s;
+}
+
+.spinner div:nth-child(5) {
+  animation-delay: 0.05s;
+}
+
+.spinner div:nth-child(6) {
+  animation-delay: 0.06s;
+}
+
+.spinner div:nth-child(7) {
+  animation-delay: 0.07s;
+}
+
+.spinner div:nth-child(8) {
+  animation-delay: 0.08s;
+}
+
+.spinner div:nth-child(9) {
+  animation-delay: 0.09s;
+}
+
+.spinner div:nth-child(10) {
+  animation-delay: 0.1s;
+}
+
+.spinner div:nth-child(11) {
+  animation-delay: 0.11s;
+}
+
+.spinner div:nth-child(12) {
+  animation-delay: 0.12s;
+}
+
+.spinner div:nth-child(13) {
+  animation-delay: 0.13s;
+}
+
+.spinner div:nth-child(14) {
+  animation-delay: 0.14s;
+}
+
+.spinner div:nth-child(15) {
+  animation-delay: 0.15s;
+}
+
+.spinner div:nth-child(16) {
+  animation-delay: 0.16s;
+}
+
+.spinner div:nth-child(17) {
+  animation-delay: 0.17s;
+}
+
+.spinner div:nth-child(18) {
+  animation-delay: 0.18s;
+}
+
+.spinner div:nth-child(19) {
+  animation-delay: 0.19s;
+}
+
+.spinner div:nth-child(20) {
+  animation-delay: 0.2s;
+}
+
+.spinner div:nth-child(21) {
+  animation-delay: 0.21s;
+}
+
+.spinner div:nth-child(22) {
+  animation-delay: 0.22s;
+}
+
+.spinner div:nth-child(23) {
+  animation-delay: 0.23s;
+}
+
+.spinner div:nth-child(24) {
+  animation-delay: 0.24s;
+}
+
+.spinner div:nth-child(25) {
+  animation-delay: 0.25s;
+}
+
+.spinner div:nth-child(26) {
+  animation-delay: 0.26s;
+}
+
+.spinner div:nth-child(27) {
+  animation-delay: 0.27s;
+}
+
+.spinner div:nth-child(28) {
+  animation-delay: 0.28s;
+}
+
+.spinner div:nth-child(29) {
+  animation-delay: 0.29s;
+}
+
+.spinner div:nth-child(30) {
+  animation-delay: 0.3s;
+}
+
+.spinner div:nth-child(31) {
+  animation-delay: 0.31s;
+}
+
+.spinner div:nth-child(32) {
+  animation-delay: 0.32s;
+}
+
+.spinner div:nth-child(33) {
+  animation-delay: 0.33s;
+}
+
+.spinner div:nth-child(34) {
+  animation-delay: 0.34s;
+}
+
+.spinner div:nth-child(35) {
+  animation-delay: 0.35s;
+}
+
+.spinner div:nth-child(36) {
+  animation-delay: 0.36s;
+}
+
+.spinner div:nth-child(37) {
+  animation-delay: 0.37s;
+}
+
+.spinner div:nth-child(38) {
+  animation-delay: 0.38s;
+}
+
+.spinner div:nth-child(39) {
+  animation-delay: 0.39s;
+}
+
+.spinner div:nth-child(40) {
+  animation-delay: 0.4s;
+}
+
+.spinner div:nth-child(41) {
+  animation-delay: 0.41s;
+}
+
+.spinner div:nth-child(42) {
+  animation-delay: 0.42s;
+}
+
+.spinner div:nth-child(43) {
+  animation-delay: 0.43s;
+}
+
+.spinner div:nth-child(44) {
+  animation-delay: 0.44s;
+}
+
+.spinner div:nth-child(45) {
+  animation-delay: 0.45s;
+}
+
+.spinner div:nth-child(46) {
+  animation-delay: 0.46s;
+}
+
+.spinner div:nth-child(47) {
+  animation-delay: 0.47s;
+}
+
+.spinner div:nth-child(48) {
+  animation-delay: 0.48s;
+}
+
+.spinner div:nth-child(49) {
+  animation-delay: 0.49s;
+}
+
+.spinner div:nth-child(50) {
+  animation-delay: 0.5s;
+}
+
+.spinner div:nth-child(51) {
+  animation-delay: 0.51s;
+}
+
+.spinner div:nth-child(52) {
+  animation-delay: 0.52s;
+}
+
+.spinner div:nth-child(53) {
+  animation-delay: 0.53s;
+}
+
+.spinner div:nth-child(54) {
+  animation-delay: 0.54s;
+}
+
+.spinner div:nth-child(55) {
+  animation-delay: 0.55s;
+}
+
+.spinner div:nth-child(56) {
+  animation-delay: 0.56s;
+}
+
+.spinner div:nth-child(57) {
+  animation-delay: 0.57s;
+}
+
+.spinner div:nth-child(58) {
+  animation-delay: 0.58s;
+}
+
+.spinner div:nth-child(59) {
+  animation-delay: 0.59s;
+}
+
+.spinner div:nth-child(60) {
+  animation-delay: 0.6s;
+}
+
+.spinner div:nth-child(61) {
+  animation-delay: 0.61s;
+}
+
+.spinner div:nth-child(62) {
+  animation-delay: 0.62s;
+}
+
+.spinner div:nth-child(63) {
+  animation-delay: 0.63s;
+}
+
+.spinner div:nth-child(64) {
+  animation-delay: 0.64s;
+}
+
+.spinner div:nth-child(65) {
+  animation-delay: 0.65s;
+}
+
+.spinner div:nth-child(66) {
+  animation-delay: 0.66s;
+}
+
+.spinner div:nth-child(67) {
+  animation-delay: 0.67s;
+}
+
+.spinner div:nth-child(68) {
+  animation-delay: 0.68s;
+}
+
+.spinner div:nth-child(69) {
+  animation-delay: 0.69s;
+}
+
+.spinner div:nth-child(70) {
+  animation-delay: 0.7s;
+}
+
+.spinner div:nth-child(71) {
+  animation-delay: 0.71s;
+}
+
+.spinner div:nth-child(72) {
+  animation-delay: 0.72s;
+}
+
+.spinner div:nth-child(73) {
+  animation-delay: 0.73s;
+}
+
+.spinner div:nth-child(74) {
+  animation-delay: 0.74s;
+}
+
+.spinner div:nth-child(75) {
+  animation-delay: 0.75s;
+}
+
+.spinner div:nth-child(76) {
+  animation-delay: 0.76s;
+}
+
+.spinner div:nth-child(77) {
+  animation-delay: 0.77s;
+}
+
+.spinner div:nth-child(78) {
+  animation-delay: 0.78s;
+}
+
+.spinner div:nth-child(79) {
+  animation-delay: 0.79s;
+}
+
+.spinner div:nth-child(80) {
+  animation-delay: 0.8s;
+}
+
+.spinner div:nth-child(81) {
+  animation-delay: 0.81s;
+}
+
+.spinner div:nth-child(82) {
+  animation-delay: 0.82s;
+}
+
+.spinner div:nth-child(83) {
+  animation-delay: 0.83s;
+}
+
+.spinner div:nth-child(84) {
+  animation-delay: 0.84s;
+}
+
+.spinner div:nth-child(85) {
+  animation-delay: 0.85s;
+}
+
+.spinner div:nth-child(86) {
+  animation-delay: 0.86s;
+}
+
+.spinner div:nth-child(87) {
+  animation-delay: 0.87s;
+}
+
+.spinner div:nth-child(88) {
+  animation-delay: 0.88s;
+}
+
+.spinner div:nth-child(89) {
+  animation-delay: 0.89s;
+}
+
+.spinner div:nth-child(90) {
+  animation-delay: 0.9s;
+}
+
+.spinner div:nth-child(91) {
+  animation-delay: 0.91s;
+}
+
+.spinner div:nth-child(92) {
+  animation-delay: 0.92s;
+}
+
+.spinner div:nth-child(93) {
+  animation-delay: 0.93s;
+}
+
+.spinner div:nth-child(94) {
+  animation-delay: 0.94s;
+}
+
+.spinner div:nth-child(95) {
+  animation-delay: 0.95s;
+}
+
+.spinner div:nth-child(96) {
+  animation-delay: 0.96s;
+}
+
+.spinner div:nth-child(97) {
+  animation-delay: 0.97s;
+}
+
+.spinner div:nth-child(98) {
+  animation-delay: 0.98s;
+}
+
+.spinner div:nth-child(99) {
+  animation-delay: 0.99s;
+}
+
+.spinner div:nth-child(100) {
+  animation-delay: 1s;
+}
+
+@keyframes Muovit {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.3);
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

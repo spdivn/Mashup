@@ -1,0 +1,39 @@
+.Footer{
+    height: 75vh;
+    background-color: black;    
+    padding-top: 80px; 
+    width: 100%;
+
+    & > div{
+        margin: 0 63px;    
+        display: flex;
+        justify-content: space-around;
+        padding: 0 15px;
+
+        & > div{
+            display: flex;
+            flex-direction:column;
+            padding: 0 15px;  
+            width: auto;  
+
+                & > a,
+                & > label{
+                color:white;
+                background: transparent;
+                border:0;
+                line-height: 24px;  
+                text-decoration: none;
+                margin-bottom: 20px;
+                    }
+                    
+                &> label{
+                    color:grey;
+                }
+            }           
+
+        & div:last-of-type{
+            flex-direction: row;
+         }
+
+        }
+}

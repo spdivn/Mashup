@@ -1,0 +1,57 @@
+.fs{
+    width: 100vw;
+    height: 100vh;
+}
+.spinner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 99.5%;
+    height: 99%;
+    background: red;
+    padding:4px;
+    border-radius: 3px;
+    opacity: .3;
+    div{
+        background: rgb(47, 188, 253);
+        width: 10%;
+        height: 10%;
+        border-radius: 3px;
+        animation:  3s Muovit infinite;
+    }
+}
+
+@for $i from 1 through 50{
+    $step: $i/50;        
+    .spinner div:nth-child(#{$i}){
+        animation-delay: #{$step}s;
+        background-color: rgb(random(255),random(255),random(255));
+                                }
+    }  
+                         
+ 
+    $step2: 100; 
+    @for $i from 1 through 50{
+        $step: $i/50;        
+        .spinner div:nth-child(#{$step2}){
+            animation-delay: #{$step}s;
+            background-color: rgb(random(255),random(255),random(255));
+                                    }
+                                    $step2: $step2 - 1;
+        
+                        }         
+
+@keyframes Muovit{
+    0%{
+        transform:scale(1);
+    }
+    10%{
+        transform:scale(.3);
+    }
+    30%{
+        opacity:0;
+    }
+    100%{        
+        opacity: 1;
+        transform:scale(1);
+    }
+}

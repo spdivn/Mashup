@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+  .Header {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  .Header > div {
+    margin: auto 0;
+  }
+  .Header > div > a {
+    color: white;
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .Footer {
+    background-color: black;
+    padding-top: 80px;
+    max-width: 1880px;
+    width: 100%;
+  }
+  .Footer > div {
+    margin: 0 63px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15px;
+  }
+  .Footer > div > div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    width: auto;
+  }
+
+  .Footer > div div:last-child{
+    flex-direction: row;
+    }
+ 
+
+  .Footer > div > div > a, .Footer > div > div > label {
+    color: white;
+    background: transparent;
+    border: 0;
+    line-height: 24px;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  .Footer > div > div > label {
+    color: grey;
+  }
+  
+  .SpaceImg {
+    margin-right: 5px;
+  }
+  
+  input:focus,
+  input:active {
+    outline: 0;
+  }
+  
+  input:hover {
+    cursor: pointer;
+  }
+  
+  img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+  }
+  
+  .Wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    max-width: 1880px;
+    justify-content: space-evenly;
+  }
+  
+  .Banner {
+    position: relative;    
+    margin-top: 60px;
+    min-height: 700px;
+    height: 100vh;
+    background: #ffb76b;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ffb76b 0%, #ff7c00 69%, #ff7f04 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffb76b 0%, #ff7c00 69%, #ff7f04 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffb76b 0%, #ff7c00 69%, #ff7f04 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffb76b", endColorstr="#ff7f04",GradientType=0 );
+    /* IE6-9 */
+    width: 100%;
+  }
+  
+  .ban {
+    width: inherit;
+    height: 75vh;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+  }
+  .full-wd  > a {
+    color: #FFF;
+    background-color: #1DB954;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+    text-transform: uppercase;
+    border: 0;
+    text-decoration: none;
+  }
+  
+  h1 {
+    padding-bottom: inherit;
+    font-size: 80px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+
+.min--hg--50{
+  min-height: 50px;
+}
