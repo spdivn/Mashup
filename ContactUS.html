@@ -7,90 +7,92 @@
 </head>
 
 <body>
-    <div style="width:100%">
-        <h1 class="h4">Contact us</h1>
-        <p>We're here to help 24 hours a day, 7 days a week, excluding holidays.</p>
-    </div>
-    <div class="Separatore">
-
-    </div>
     <div>
-        <h2 class="h4">
-            Modulo di contatto
-        </h2>
-        <p>
-            Scrivici: ti ricontatteremo al più presto!
-        </p>
         <form>
-            <div class="cell_medium_6">
-                <label for="Nome">
-                    Nome
-                    <input required type="text" id="Nome" required maxlength="50">
-                </label>
+            <div style="width:100%">
+                <h1 class="h4">Contact us</h1>
+                <p>We're here to help 24 hours a day, 7 days a week, excluding holidays.</p>
             </div>
-            <div class="cell_medium_6">
-                <label for="Cognome">
-                    Cognome
-                    <input required type="text" id="Cognome" required maxlength="50">
-                </label>
+            <div class="Separatore">
+
             </div>
-            <div class="cell_medium_6">
-                <label for="Email">
-                    E-mail
-                    <input required type="Email" id="Email" required maxlength="50">
-                </label>
+            <div>
+                <h2 class="h4">
+                    Modulo di contatto
+                </h2>
+                <p>
+                    Scrivici: ti ricontatteremo al più presto!
+                </p>
+                <div class="cell_medium_6">
+                    <label for="Nome">
+                        Nome
+                        <input required type="text" id="Nome" required maxlength="50">
+                    </label>
+                </div>
+                <div class="cell_medium_6">
+                    <label for="Cognome">
+                        Cognome
+                        <input required type="text" id="Cognome" required maxlength="50">
+                    </label>
+                </div>
+                <div class="cell_medium_6">
+                    <label for="Email">
+                        E-mail
+                        <input required type="Email" id="Email" required maxlength="50">
+                    </label>
+                </div>
+                <div class="cell_medium_6">
+                    <label for="Telefono">
+                        Telefono
+                        <input required type="tel" id="Telefono" required maxlength="2147483647">
+                    </label>
+                </div>
+                <div class="cell_medium_6">
+                    <label for="N_Ordine">
+                        N° ordine
+                        <input required type="tel" id="N_Ordine" required maxlength="2147483647">
+                    </label>
+                </div>
+                <div class="cell_medium_6">
+                    <label for="Customer_help">
+                    </label> Come possiamo aiutarti?
+                    <select id="Customer_help" required>
+                        <option value="1">Account</option>
+                        <option value="2">Azienda</option>
+                        <option value="3">Ordine</option>
+                        <option value="4">Pagamenti</option>
+                        <option value="5">Prodotti</option>
+                        <option value="8">Promozioni</option>
+                        <option value="9">Resi e Recessi</option>
+                        <option value="10">Sito internet</option>
+                        <option value="11">Trattamento dati e privacy</option>
+                        <option value="20">Feedback</option>
+                    </select>
+                    </label>
+                </div>
+                <div class="cell_medium">
+                    <label for="Messaggio">
+                        Messaggio
+                        <textarea type="text" required id="Messaggio" placeholder="Scrivi qui il tuo messaggio"
+                            maxlength="400" cols="40" rows="8"></textarea>
+                    </label>
+                    </label>
+                </div>
             </div>
-            <div class="cell_medium_6">
-                <label for="Telefono">
-                    Telefono
-                    <input required type="tel" id="Telefono" required maxlength="2147483647">
-                </label>
+            <h4>Newsletter</h4>
+            <div>
+                <input type="checkbox" id="c1" name="cc" />
+                <label for="c1"><span></span>Newsletter</label>
             </div>
-            <div class="cell_medium_6">
-                <label for="N_Ordine">
-                    N° ordine
-                    <input required type="tel" id="N_Ordine" required maxlength="2147483647">
-                </label>
+            <div>
+                <input type="checkbox" id="c2" name="cc2" />
+                <label for="c2"><span></span>Profiling</label>
             </div>
-            <div class="cell_medium_6">
-                <label for="Customer_help">
-                </label> Come possiamo aiutarti?
-                <select id="Customer_help" required>
-                    <option value="1">Account</option>
-                    <option value="2">Azienda</option>
-                    <option value="3">Ordine</option>
-                    <option value="4">Pagamenti</option>
-                    <option value="5">Prodotti</option>
-                    <option value="8">Promozioni</option>
-                    <option value="9">Resi e Recessi</option>
-                    <option value="10">Sito internet</option>
-                    <option value="11">Trattamento dati e privacy</option>
-                    <option value="20">Feedback</option>
-                </select>
-                </label>
-            </div>
-            <div class="cell_medium">
-                <label for="Messaggio">
-                    Messaggio
-                    <textarea type="text" required id="Messaggio" placeholder="Scrivi qui il tuo messaggio" maxlength="400"
-                        cols="40" rows="8"></textarea>
-                </label>
-                </label>
+            <div>
+                <input type="submit" class="Submit" value="Invia" id="Invia" name="Invia">
             </div>
         </form>
     </div>
-    <h4>Newsletter</h4>
-    <div>
-        <label for="Newsletter"> Iscrizione alla Newsletters
-            <input class="o" required type="checkbox" id="Newsletter" name="Newsletter">
-        </label>
-        <span></span>
-    </div>
-    <div>
-            <label for="Profiling"> Profiling
-                <input class="o" required type="checkbox" id="Profiling" name="Profiling">
-            </label>
-        </div>
 </body>
 
 </html>
