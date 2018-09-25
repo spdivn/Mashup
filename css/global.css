@@ -273,3 +273,7 @@ nav #nav:checked ~ label b {
 nav #nav:checked ~ menu {
   display: block;
   opacity: 1; }
+.main{
+  max-width: 1880px;
+  margin: 0 auto;
+}
