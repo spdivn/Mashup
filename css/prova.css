@@ -1,6 +1,6 @@
 body {
     background-color: rgb(92, 55, 255);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div {
@@ -12,7 +12,7 @@ div {
     text-align: center;
     font-size: 90px;
     font-weight: bold;
-    color:rgb(208, 55, 255) ;
+    color:rgb(60, 255, 0) ;
     border-bottom: 30px solid  rgb(34, 171, 235);
 }
 
@@ -58,14 +58,14 @@ div span:nth-child(4) {
     }
     50% {
         transform: rotateY(180deg) translateY(-30px) rotateX(180deg);
-        opacity: 0.4;
+        opacity: 0.6;
     }
     95% {
         transform: rotateX(360deg);
-        opacity: 0.2;
+        opacity: 0.8;
     }
     100% {
         transform: rotateY(360deg) translateY(0) rotateX(0);
-        opacity: 0.6;
+        opacity: 1;
     }
 }
